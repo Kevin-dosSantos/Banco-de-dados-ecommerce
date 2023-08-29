@@ -23,7 +23,7 @@ create table product (
   size varchar(10)
 );
 
-cretae table payments (
+create table payments (
   idClient int,
   idPayment int,
   typePayment enum ("Boleto", "Cartão de débito", "Cartão de crédito", "Dois cartões", "Pix", "Dinheiro", "Qr code"),
